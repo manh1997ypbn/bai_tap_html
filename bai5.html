@@ -4,87 +4,55 @@
         <title></title>
     </head>
     <body>
-        <div> 
-            <h1>
-                ĐĂNG KÝ HỌC VIÊN
-            </h1>
-            <form>
+        <form> 
+            <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+            <div>
+                <!-- họ và tên  -->
                 <div class="form-control">
-                    <label for="name">
-                        Họ và tên
-                    </label>
-                    <input
-                        id="name" 
-                        type="text"
-                    />
+                    <label for="name">Họ và tên</label>
+                    <input id="name" type="text" />
                 </div>
+                <!-- ngày sinh  -->
                 <div class="form-control">
-                    <label for="date">
-                        Ngày sinh
-                    </label>
-                    <input
-                        id="date" 
-                        type="date"
-                    />
+                    <label for="date"> Ngày sinh</label>
+                    <input id="date" type="date" />
                 </div>
+                <!-- giới tính  -->
                 <div class="form-control">
-                    <label for="gender">
-                        Giới tính
-                    </label>
-                    <input
-                        name="gender"
-                        id="male" 
-                        type="radio"
-                    />
-                    <label for="male">
-                        Nam
-                    </label>
-                    <input
-                        name="gender"
-                        id="female" 
-                        type="radio"
-                    />
-                    <label for="female">
-                        Nữ
-                    </label>
+                    <label for="gender"> Giới tính </label>
+                    <input name="gender" id="male" type="radio"/>
+                    <label for="male"> Nam</label>
+                    <input name="gender" id="female" type="radio"/>
+                    <label for="female"> Nữ</label>
                 </div>
+                <!-- địa chỉ  -->
                 <div class="form-control">
-                    <label for="address">
-                        Địa chỉ
-                    </label>
+                    <label for="address"> Địa chỉ</label>
                     <textarea name="address" id="address" cols="30" rows="5"></textarea>
                 </div>
+                <!-- lớp  -->
                 <div class="form-control">
-                    <label for="class">
-                        Lớp
-                    </label>
+                    <label for="class"> Lớp </label>
                     <select>
                         <option> Chọn lớp </option>
                     </select>
                 </div>
+                <!-- nhập email  -->
                 <div class="form-control">
-                    <label for="email">
-                        Email
-                    </label>
-                    <input
-                        id="email" 
-                        type="email"
-                    />
+                    <label for="email"> Email</label>
+                    <input id="email" type="email" />
                 </div>
+                <!-- nhập số điện thoại  -->
                 <div class="form-control">
-                    <label for="phonenumber">
-                        Số điện thoại
-                    </label>
-                    <input
-                        id="phonenumber" 
-                        type="number"
-                    />
+                    <label for="phonenumber"> Số điện thoại </label>
+                    <input id="phonenumber" type="number" />
                 </div>
+                <!-- button  -->
                 <div>
                     <button> Đăng ký</button>
                     <button> Nhập lại</button>
                 </div>
-            </form>
-        </div>
+            </div>
+        </form>
     </body>
 </html>
